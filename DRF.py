@@ -37,4 +37,6 @@ Overall, RESTful web APIs provide a standard and flexible way of building web se
 # 2. Create virtual environment $python3 -m venv drf-env
 # 3. Activate virtual environment $source drf-env/bin/activate
 # install Django $pip install django
-
+# 5. install DRF $pip install djangorestframework
+# 6. on settings.py add app: 'rest_framework', 
+# 7. Create new folder on route directory of the project call it api. Create ___init__.py file and views.py file
